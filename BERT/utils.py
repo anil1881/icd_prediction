@@ -112,3 +112,12 @@ if __name__ == '__main__':
     for i, e in enumerate(input_ids):
         len_list.append(len(e))
     print(np.median(np.array(len_list)))
+
+
+
+
+
+ len_list = []
+    for i, e in enumerate(input_ids):
+        len_list.append(len(e))
+    print(np.median(np.array(len_list))
